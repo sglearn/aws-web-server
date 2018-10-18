@@ -2,8 +2,6 @@
 
 /* create api */  
 
-const region = 'ap-southeast-1';
-const endpoint = 'dynamodb.ap-southeast-1.amazonaws.com';
 
 const api = require('@sglearn/web-server')
 
@@ -12,9 +10,9 @@ const catalog = new DatabaseAbstractor();
 const course = new DatabaseAbstractor();
 const enroll = new DatabaseAbstractor();
 
-catalog.use(require('@sglearn/catalogdb-dynamodb-driver')({region, endpoint}));
-course.use(require('@sglearn/coursedb-dynamodb-driver')({region, endpoint}));
-enroll.use(require('@sglearn/enrolldb-dynamodb-driver')({region, endpoint}));
+catalog.use(require('@sglearn/catalogdb-dynamodb-driver')());
+course.use(require('@sglearn/coursedb-dynamodb-driver')());
+enroll.use(require('@sglearn/enrolldb-dynamodb-driver')());
 
 api.useDatabase({ catalog, course, enroll })
 

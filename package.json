@@ -24,7 +24,7 @@
     "@sglearn/catalogdb-dynamodb-driver": "^1.0.0",
     "@sglearn/coursedb-dynamodb-driver": "^1.0.1",
     "@sglearn/enrolldb-dynamodb-driver": "^1.0.0",
-    "@sglearn/web-server": "^1.0.1",
+    "@sglearn/web-server": "^1.0.3",
     "aws-serverless-express": "^3.3.5",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",

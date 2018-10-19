@@ -2,7 +2,7 @@
   "name": "aws-web-server",
   "version": "1.0.0",
   "description": "sglearn project: aws deployment of web-server",
-  "main": "aws.js",
+  "main": "lambda.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,7 +24,7 @@
     "@sglearn/catalogdb-dynamodb-driver": "^1.0.0",
     "@sglearn/coursedb-dynamodb-driver": "^1.0.1",
     "@sglearn/enrolldb-dynamodb-driver": "^1.0.0",
-    "@sglearn/web-server": "^1.1.0",
+    "@sglearn/web-server": "^1.1.2",
     "aws-serverless-express": "^3.3.5",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.4",

@@ -24,10 +24,10 @@
     "@sglearn/catalogdb-dynamodb-driver": "^1.0.0",
     "@sglearn/coursedb-dynamodb-driver": "^1.0.1",
     "@sglearn/enrolldb-dynamodb-driver": "^1.0.0",
-    "@sglearn/web-server": "^1.1.7",
+    "@sglearn/web-server": "^1.2.3",
     "aws-serverless-express": "^3.3.5",
     "cookie-parser": "^1.4.3",
-    "cors": "^2.8.4",
+    "cors": "^2.8.5",
     "database-abstractor": "^1.0.0",
     "express": "^4.16.4"
   }
